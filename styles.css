@@ -1,0 +1,1096 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 15px;
+    list-style-type: none;
+}
+
+nav h2 {
+    font-size: 27px;
+}
+
+img[alt="menu"] {
+    display: none;
+}
+
+/* ul div media query */
+
+
+
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    img[alt="menu"] {
+        display: none;
+    }
+
+    ul li {
+        padding: 25px;
+        background-color: rgb(37, 37, 37);
+        color: white;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .ul-div {
+        display: none;
+    }
+
+    img[alt="menu"] {
+        display: block;
+    }
+
+    .ul-div {
+        position: absolute;
+        top: 68px;
+        right: 20px;
+        padding: 80px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 28px;
+        font-size: 37px;
+        z-index: 1;
+        font-weight: 500;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        padding: 25px;
+        background-color: white;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .ul-div {
+        display: none;
+    }
+
+    img[alt="menu"] {
+        display: block;
+    }
+
+    .ul-div {
+        position: absolute;
+        top: 68px;
+        right: 20px;
+        padding: 80px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 28px;
+        font-size: 37px;
+        z-index: 1;
+        font-weight: 500;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        padding: 25px;
+        background-color: white;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ul-div {
+        display: none;
+    }
+
+    img[alt="menu"] {
+        display: block;
+    }
+
+    .ul-div {
+        position: absolute;
+        top: 68px;
+        right: 20px;
+        padding: 80px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 28px;
+        font-size: 37px;
+        z-index: 1;
+        font-weight: 500;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        padding: 25px;
+        background-color: white;
+        color: black;
+    }
+}
+
+.background-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+
+}
+
+.intro {
+    text-align: left;
+    margin: auto;
+    padding: 6px;
+}
+
+.intro>h1 {
+    font-size: 120px;
+    width: 50%;
+    text-align: center;
+}
+
+.intro>p {
+    text-align: left;
+    width: 47%;
+    font-size: 19px;
+    padding-left: 52px;
+}
+
+
+.background-img-div {
+    position: absolute;
+    top: 58px;
+    right: 212px;
+}
+
+
+img[alt="mini-one"] {
+    position: relative;
+    bottom: 448px;
+    left: 303px;
+}
+
+img[alt="mini-two"] {
+    position: relative;
+    bottom: 135px;
+    left: 52px;
+}
+
+/* img[alt="mini-one-again"]{
+    position: relative;
+    bottom: 135px;
+    left: 52px;
+} */
+
+.mini-one>p {
+    font-weight: 600;
+    font-size: 36px;
+    background-color: #EF8964;
+
+}
+
+img[alt="run"] {
+    background-color: #EF8964;
+    width: 39px;
+}
+
+
+
+img[alt="background-person"] {
+    width: 340px;
+}
+
+/* intro media query */
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    .intro>h1 {
+        font-size: 63px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro>p {
+        text-align: left;
+        width: 78%;
+        margin: auto;
+        font-size: 39px;
+    }
+
+    img[alt="mini-one"] {
+        
+    bottom: 401px;
+    left: 187px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .intro>h1 {
+        font-size: 63px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro>p {
+        text-align: left;
+        width: 78%;
+        margin: auto;
+        font-size: 39px;
+    }
+
+    img[alt="mini-one"] {
+        bottom: 477px;
+        left: 145px;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .intro>h1 {
+        font-size: 63px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro>p {
+        text-align: left;
+        width: 78%;
+        margin: auto;
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro>h1 {
+        font-size: 63px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro>p {
+        text-align: left;
+        width: 78%;
+        margin: auto;
+        font-size: 39px;
+    }
+}
+
+
+/* .background-content h1 {
+    font-weight: 700;
+    font-size: 99px;
+    width: 47%;
+    margin: auto;
+} */
+
+/* .background-side-text {
+    width: 49%;
+    padding: 19px;
+    text-align: left;
+    font-size: 20px;
+} */
+
+.join-club-btn-div {
+    padding-top: 25px;
+    padding-left: 48px;
+}
+
+button[name="join-btn"] {
+    padding: 20px;
+    /* margin: 10px; */
+    border-radius: 20px;
+    border-style: none;
+    background-color: #f46632;
+    color: white;
+    font-size: 15px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* img[alt="background-person"] {
+    width: 302px;
+    position: absolute;
+    right: 225px;
+    top: 56px;
+} */
+
+
+
+.relative-to-img-div {
+    position: relative;
+}
+
+
+.sponsors {
+    padding: 75px;
+}
+
+#sponsor-title {
+    text-align: left;
+    font-weight: 500;
+}
+
+.sponsors-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-top: 10px;
+}
+
+/* mode media query , dark or white */
+
+
+/* background content media query */
+
+
+
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    .background-content {}
+
+    /* .background-content h1 {
+        width: 55%;
+        font-size: 80px;
+    } */
+
+    .background-side-text {
+        width: 65%;
+        padding: 13px;
+        margin: auto;
+    }
+
+    .absolute-img-div {
+        position: absolute;
+        top: 61px;
+        right: 71px;
+    }
+
+    .background-img-div {
+        position: unset;
+        text-align: center;
+    }
+
+    img[alt="background-person"] {
+        width: 263px;
+    }
+
+    .join-club-btn-div {
+        width: 78%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    button[name="join-btn"] {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .background-content {
+        padding: 14px;
+        flex-wrap: wrap;
+    }
+
+    /* .background-content h1 {
+        width: 67%;
+        font-size: 81px;
+    } */
+
+    .background-side-text {
+        margin: auto;
+        width: 73%;
+    }
+
+    .absolute-img-div {
+        margin: auto;
+    }
+
+    img[alt="background-person"] {
+        width: 263px;
+    }
+
+    .background-img-div {
+        right: 64px;
+        top: 313px;
+    }
+
+    .join-club-btn-div {
+        width: 78%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    button[name="join-btn"] {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .background-content {
+        flex-wrap: wrap;
+    }
+
+    .sponsors-div {
+        justify-content: center;
+    }
+
+    #sponsor-title {
+        text-align: center;
+    }
+
+    /* .background-content h1 {
+        width: 86%;
+        font-size: 80px;
+    } */
+
+    .background-side-text {
+        margin: auto;
+        width: 73%;
+    }
+
+    .absolute-img-div {
+        margin: auto;
+    }
+
+    img[alt="background-person"] {
+        width: 263px;
+    }
+
+    .background-img-div {
+        right: 64px;
+        top: 313px;
+    }
+
+    .join-club-btn-div {
+        width: 78%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    button[name="join-btn"] {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .background-content {
+        flex-wrap: wrap;
+    }
+
+    /* .background-content h1 {
+        width: 100%;
+        font-size: 80px;
+    } */
+
+    .background-side-text {
+        margin: auto;
+        width: 73%;
+    }
+
+    .absolute-img-div {
+        margin: auto;
+    }
+
+    .background-img-div {}
+
+    img[alt="background-person"] {
+        width: 263px;
+    }
+
+    .join-club-btn-div {
+        width: 78%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    button[name="join-btn"] {
+        font-size: 30px;
+    }
+}
+
+.start {
+    padding: 25px;
+    text-align: center;
+}
+
+.start>p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.start>h2 {
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    color: white;
+    justify-content: center;
+}
+
+#card-text {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #40414a;
+}
+
+#card-text>p {
+    background-color: #40414a;
+}
+
+
+
+.card-content {
+    padding: 67px;
+    text-align: center;
+    width: 22%;
+    margin-top: 15px;
+    background-color: #40414a;
+    ;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 17px;
+
+}
+
+.card-content>h3 {
+    padding-bottom: 15px;
+    font-size: 22px;
+    background-color: #40414a;
+}
+
+.offer p {
+    width: 70%;
+    font-size: 17px;
+    margin: auto;
+}
+
+.offer h2 {
+    font-size: 43px;
+}
+
+/* Cards media query */
+
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    #card-text>p {
+        width: 87%;
+    }
+
+    .card-content {
+        width: 43%;
+        font-size: 20px;
+    }
+
+    .offer-img-div {
+        margin: auto;
+    }
+
+    .offer p {
+        width: 100%;
+    }
+
+    .start>h2 {
+        font-size: 50px;
+    }
+
+    .see-more-div>a {
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    #card-text>p {
+        width: 90%;
+        font-size: 41px;
+    }
+
+    .card-content {
+        width: 86%;
+        font-size: 20px;
+        padding: 110px;
+        margin-bottom: 27px;
+
+    }
+
+    .offer-img-div {
+        margin: auto;
+    }
+
+    .offer p {
+        width: 100%;
+    }
+
+    .start>h2 {
+        font-size: 50px;
+    }
+
+    .see-more-div>a {
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    #card-text>p {
+        width: 98%;
+    }
+
+    .card-content {
+        width: 98%;
+        font-size: 20px;
+
+    }
+
+    .offer-img-div {
+        margin: auto;
+    }
+
+    .offer p {
+        width: 100%;
+    }
+
+    .start>h2 {
+        font-size: 50px;
+    }
+
+    .see-more-div>a {
+        font-size: 39px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    #card-text>p {
+        width: 100%;
+    }
+
+    .card-content {
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    .offer h2 {
+        font-size: 30px;
+    }
+
+    .offer p {
+        width: 100%;
+        font-size: 21px;
+    }
+
+    .start>h2 {
+        font-size: 50px;
+    }
+
+    .see-more-div>a {
+        font-size: 39px;
+    }
+}
+
+.offer {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 69px;
+    text-align: center;
+    align-items: center;
+}
+
+img[alt="offer-img"] {
+    border-radius: 8px;
+    width: 550px;
+}
+
+/* offer media query */
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    img[alt="offer-img"] {
+        width: 97%;
+    }
+
+    .offer {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    img[alt="offer-img"] {
+        padding-top: 62px;
+        width: 98%;
+    }
+
+    .offer {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    img[alt="offer-img"] {
+        padding-top: 10px;
+        width: 99%;
+    }
+
+    .offer {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img[alt="offer-img"] {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .offer {
+        flex-wrap: wrap;
+    }
+}
+
+.training {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 38px;
+    text-align: center;
+    align-items: center;
+    column-gap: 95px;
+    row-gap: 38px;
+}
+
+.training p {
+    font-size: 19px;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.training h3 {
+    font-size: 34px;
+    text-align: left;
+}
+
+img[alt="training"] {
+    border-radius: 8px;
+}
+
+/* training media query */
+
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    .training {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .training p {
+        font-size: 21px;
+    }
+
+    img[alt="training"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .training {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    img[alt="training"] {
+        width: 100%;
+    }
+
+    .training p {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .training {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    img[alt="training"] {
+        width: 100%;
+    }
+
+    .training p {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .training {
+        flex-wrap: wrap;
+    }
+
+    img[alt="training"] {
+        width: 100%;
+    }
+
+    .training p {
+        font-size: 21px;
+    }
+
+    .training h3 {
+        font-size: 25px;
+    }
+}
+
+.membership {
+    padding: 51px;
+    text-align: center;
+}
+
+.membership h2 {
+    padding-bottom: 25px;
+    font-size: 37px;
+}
+
+.membership-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.membership-cards p {
+    background-color: #40414a;
+}
+
+.card {
+    width: 34%;
+    background-color: #40414a;
+    padding: 70px;
+    color: white;
+    font-size: 17px;
+}
+
+.card>ul {
+    width: 100%;
+    text-align: left;
+    padding-top: 20px;
+    background-color: #40414a;
+}
+
+.card li {
+    background-color: #40414a;
+}
+
+.card>h2 {
+    text-align: center;
+    background-color: #40414a;
+}
+
+.see-more-div {
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    width: 69%;
+}
+
+.see-more-div-membership {
+    padding-top: 103px;
+    display: flex;
+    margin: auto;
+    background-color: #40414a;
+}
+
+
+.see-more-div-membership>a {
+    font-size: 22px;
+    color: rgb(56 98 179);
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #40414a;
+}
+
+
+.join-club-div {
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    background-color: #40414a;
+}
+
+
+.see-more-div>a {
+    font-size: 22px;
+    color: rgb(56 98 179);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+img[alt="right-arrow"] {
+    padding-left: 15px;
+    padding-bottom: 5px;
+    background-color: #40414a;
+}
+
+img[alt="right-black-arrow"] {
+    padding-left: 15px;
+}
+
+button[name="join-club"] {
+    padding: 7px;
+    background-color: rgb(56 98 179);
+    border-radius: 13px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    width: 150px;
+}
+
+
+
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    .card {
+        width: 45%;
+        padding: 70px;
+        font-size: 22px;
+    }
+
+    .card>p {
+        width: 91%;
+    }
+
+    button[name="join-club"] {
+        font-size: 17px;
+    }
+
+    .see-more-div {
+        width: 100%;
+    }
+
+    .membership h2 {
+        font-size: 67px;
+    }
+
+    .membership-cards h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .card {
+        width: 100%;
+        padding: 98px;
+        font-size: 44px;
+        margin-bottom: 63px;
+    }
+
+    .card>p {
+        width: 88%;
+
+    }
+
+    button[name="join-club"] {
+        font-size: 17px;
+    }
+
+    .see-more-div {
+        width: 86%;
+    }
+
+    .see-more-div>a {
+        font-size: 35px;
+    }
+
+    .membership h2 {
+        font-size: 67px;
+    }
+
+    .membership-cards h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .card {
+        width: 100%;
+        padding: 75px;
+        font-size: 22px;
+    }
+
+    .card>p {
+        width: 91%;
+    }
+
+    .membership-cards {
+        row-gap: 15px;
+    }
+
+    button[name="join-club"] {
+        font-size: 17px;
+    }
+
+    .see-more-div {
+        width: 100%;
+    }
+
+    .membership h2 {
+        font-size: 67px;
+    }
+
+    .membership-cards h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        padding: 60px;
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .card>p {
+        text-align: center;
+    }
+
+    .membership-cards {
+        row-gap: 15px;
+    }
+
+    button[name="join-club"] {
+        font-size: 17px;
+    }
+
+    .see-more-div {
+        width: 100%;
+    }
+
+    .membership h2 {
+        font-size: 67px;
+    }
+
+    .membership-cards h2 {
+        font-size: 50px;
+    }
+
+}
